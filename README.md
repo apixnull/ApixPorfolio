@@ -1,80 +1,83 @@
-Project Title
+## Project Title
 
-My Portfolio Website
+**My Portfolio Website**
 
-Description
+## Description
 
-This is a personal portfolio website built with React.js and integrated with EmailJS to provide a contact form that sends messages directly to my email. It showcases my skills, projects, and work experience in an interactive, responsive design.
+- Personal portfolio website built with React.js
+- Integrated with EmailJS for a serverless contact form
+- Showcases skills, projects, and work experience
+- Responsive and interactive design with smooth scroll animations
 
-Features
+## Features
 
-Home Section: Introduction and a brief overview of who I am and what I do.
+- **Home Section**: Introduction and overview
+- **About Section**: Detailed biography, skills, and tools
+- **Projects Section**: Showcase of selected projects with live demos and GitHub links
+- **Contact Section**: EmailJS-powered form for direct messaging
+- **Responsive Design**: Optimized for desktop, tablet, and mobile
+- **Animations**: Custom `RevealOnScroll` component for fade-in effects
 
-About Section: Detailed biography, skills, and tools I use.
+## Tech Stack
 
-Projects Section: Showcase of selected projects with links to live demos and GitHub repositories.
+- **React.js**
+- **Tailwind CSS**
+- **EmailJS** (no backend required)
+- **Vite**
+- **npm**
 
-Contact Section: Interactive form powered by EmailJS for direct messaging without a backend server.
+## Installation
 
-Responsive Design: Fully optimized for desktop, tablet, and mobile viewports.
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git
+   ```
+2. Navigate to the project directory:  
+   ```bash
+   cd your-portfolio
+   ```
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file at the project root with the following:  
+   ```env
+   VITE_SERVICE_ID=your_service_id
+   VITE_TEMPLATE_ID=your_template_id
+   VITE_PUBLIC_KEY=your_public_key
+   ```
+5. Start the development server:  
+   ```bash
+   npm run dev
+   ```
 
-Smooth Animations: Fade-in effects on scroll using a custom RevealOnScroll component.
+## Usage
 
-Tech Stack
+- Open the website at `http://localhost:3000`  
+- Fill out the contact form and click **Send Message**  
+- Receive messages directly via EmailJS without a backend
 
-Frontend: React.js, Tailwind CSS
+## Configuration
 
-Email Service: EmailJS (no backend required)
+- `VITE_SERVICE_ID`: Your EmailJS service ID  
+- `VITE_TEMPLATE_ID`: Your EmailJS template ID  
+- `VITE_PUBLIC_KEY`: Your EmailJS public key
 
-Tooling: Vite, npm
+## Contributing
 
-Installation
+- Fork the repository
+- Create a new branch (`git checkout -b feature-name`)
+- Make your changes and commit (`git commit -m 'Add feature'`)
+- Push to the branch (`git push origin feature-name`)
+- Open a pull request
 
-Clone the repository:
+## License
 
-git clone https://github.com/your-username/your-portfolio.git
+- Licensed under the MIT License  
+- See the [LICENSE](LICENSE) file for details
 
-Navigate to the project directory:
+---
 
-cd your-portfolio
-
-Install dependencies:
-
-npm install
-
-Create a .env file in the root directory and add your EmailJS credentials:
-
-VITE_SERVICE_ID=your_service_id
-VITE_TEMPLATE_ID=your_template_id
-VITE_PUBLIC_KEY=your_public_key
-
-Start the development server:
-
-npm run dev
-
-Usage
-
-Access the live website at http://localhost:3000.
-
-Fill out the contact form and click "Send Message" to test the EmailJS integration.
-
-Configuration
-
-Modify the following environment variables in the .env file:
-
-VITE_SERVICE_ID: Your EmailJS service ID.
-
-VITE_TEMPLATE_ID: Your EmailJS template ID.
-
-VITE_PUBLIC_KEY: Your EmailJS public key.
-
-Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request on GitHub.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Thank you for visiting my portfolio! Feel free to connect with me on LinkedIn or GitHub.
+- Thank you for visiting my portfolio!  
+- Connect with me on [LinkedIn](#) or [GitHub](#).
 
